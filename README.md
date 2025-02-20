@@ -17,7 +17,7 @@ pip install pyperclip
 **4.** Update `config.py` with your **encrypted** API key:
 ENCRYPTED_KEY = b'your_encrypted_key_here'
 
-## Usage
+## Usage (Clipboard Listener)
 **1.** Run:
 python clipboard_listen.py
 
@@ -30,3 +30,13 @@ python clipboard_listen.py
 **5.** Paste the answer wherever you need it.
 
 **Stop** the script with Ctrl + C.
+
+## Listing Models
+If you want to see which models you can access:
+
+**1.** Run:
+python list_models.py
+
+**2.** When prompted, enter the same short passphrase.
+
+**3.** The script prints out all model IDs your account can use.
